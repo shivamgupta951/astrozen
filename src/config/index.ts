@@ -1,98 +1,92 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Shivam Gupta — Full Stack MERN Developer",
+  author: "Shivam Gupta",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full Stack MERN Developer | Galgotias University | GSSoC Contributor 2025 | Building scalable and interactive web applications with React, Node.js, and MongoDB.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/shivam-profile.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/shivam-gupta-199203339/" },
+    { text: "Github", href: "https://github.com/shivamgupta951" },
+    { text: "Email", href: "mailto:kapilmohangupta20@gmail.com" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/shivam-og.png",
+  canonicalURL: "https://shivamgupta-portfolio.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Shivam Gupta",
+    specialty: "Full Stack MERN Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "I'm a B.Tech CSE student at Galgotias University (2023–2027) passionate about building fast, modern web apps using React, Node.js, Express, and MongoDB. I enjoy solving DSA problems and exploring TypeScript and Next.js.",
+    email: "kapilmohangupta20@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "GirlScript Summer of Code (GSSoC) 2025",
+      position: "Open Source Contributor",
+      startDate: "Jan 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Contributing to open-source projects using React, Node.js, and TypeScript.",
+        "Collaborating with developers worldwide to fix issues, enhance features, and write clean, modular code.",
+        "Learning collaborative development workflows via Git and GitHub.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Galgotias University",
+      position: "B.Tech Computer Science Student",
+      startDate: "Aug 2023",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Learning Data Structures & Algorithms (DSA) in Java.",
+        "Exploring full-stack development, REST APIs, and modern frontend frameworks.",
+        "Developed multiple personal projects demonstrating real-world full-stack concepts.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "YemmyChats",
+      summary:
+        "A full-featured MERN stack chat app supporting real-time messaging, group chats, StoreRoom for shared files, email notifications, and voice messages with Cloudinary integration.",
+      linkPreview: "https://github.com/shivamgupta951/YemmyChats",
+      linkSource: "https://github.com/shivamgupta951/YemmyChats",
+      image: "https://placehold.co/600x400/3b82f6/ffffff?text=YemmyChats",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "iDataBook",
+      summary:
+        "A cloud-based academic document manager that allows users to securely store, organize, and access files. Built with React, Express, and MongoDB for seamless CRUD operations.",
+      linkPreview: "https://github.com/shivamgupta951/idatabook",
+      linkSource: "https://github.com/shivamgupta951/idatabook",
+      image: "https://placehold.co/600x400/6366f1/ffffff?text=iDataBook",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Weather Forecast",
+      summary:
+        "A responsive weather web app showing real-time forecasts using OpenWeatherMap API, built with React and Tailwind CSS.",
+      linkPreview: "https://github.com/shivamgupta951/weatherforecast",
+      linkSource: "https://github.com/shivamgupta951/weatherforecast",
+      image: "https://placehold.co/600x400/14b8a6/ffffff?text=Weather+Forecast",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+Hi, I'm **Shivam Gupta**, a passionate Full Stack MERN Developer and open-source enthusiast from India.  
+Currently pursuing my B.Tech in Computer Science at **Galgotias University (2023–2027)**, I focus on building modern, scalable web applications that deliver great user experiences.  
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+I enjoy exploring the MERN stack, contributing to open source, and experimenting with new technologies like **TypeScript**, **Next.js**, and **Zustand**.  
+When not coding, I like improving my DSA skills and working on creative personal projects like **YemmyChats** and **YemmyHMGame**.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/shivam-about.png", 
   },
 };
-
-// #5755ff
