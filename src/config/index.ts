@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Full Stack MERN Developer | Galgotias University | GSSoC Contributor 2025 | Building scalable and interactive web applications with React, Node.js, and MongoDB.",
   lang: "en",
-  siteLogo: "/shivam-profile.jpg",
+  siteLogo: "/shivam-profile.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
