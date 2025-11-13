@@ -12,13 +12,11 @@ const { siteLogo, navLinks } = Astro.props;
   class="sticky top-0 z-50 mx-auto flex max-w-5xl animate-slide-in justify-between bg-black px-5 py-6"
 >
   <a href="/" aria-label="Home link">
-    <Image
-      class="rounded-full"
-      src={siteLogo}
-      width="45"
-      height="45"
-      alt="website logo"
-    />
+<img
+  src={SITE_CONFIG.siteLogo}
+  alt="Shivam Gupta"
+  class="w-40 h-40 rounded-full border-4 border-primary shadow-lg shadow-primary/30 object-cover"
+/>
   </a>
 
   <button
