@@ -53,32 +53,32 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
-  projects: [
-    {
-      name: "YemmyChats",
-      summary:
-        "A full-featured MERN stack chat app supporting real-time messaging, group chats, StoreRoom for shared files, email notifications, and voice messages with Cloudinary integration.",
-      linkPreview: "https://github.com/shivamgupta951/YemmyChats",
-      linkSource: "https://github.com/shivamgupta951/YemmyChats",
-      image: "https://placehold.co/600x400/3b82f6/ffffff?text=YemmyChats",
-    },
-    {
-      name: "iDataBook",
-      summary:
-        "A cloud-based academic document manager that allows users to securely store, organize, and access files. Built with React, Express, and MongoDB for seamless CRUD operations.",
-      linkPreview: "https://github.com/shivamgupta951/idatabook",
-      linkSource: "https://github.com/shivamgupta951/idatabook",
-      image: "https://placehold.co/600x400/6366f1/ffffff?text=iDataBook",
-    },
-    {
-      name: "Weather Forecast",
-      summary:
-        "A responsive weather web app showing real-time forecasts using OpenWeatherMap API, built with React and Tailwind CSS.",
-      linkPreview: "https://github.com/shivamgupta951/weatherforecast",
-      linkSource: "https://github.com/shivamgupta951/weatherforecast",
-      image: "https://placehold.co/600x400/14b8a6/ffffff?text=Weather+Forecast",
-    },
-  ],
+projects: [
+  {
+    name: "YemmyChats",
+    summary:
+      "A full-featured MERN stack chat app supporting real-time messaging, group chats, StoreRoom for shared files, email notifications, and voice messages with Cloudinary integration.",
+    linkPreview: "https://github.com/shivamgupta951/YemmyChats",
+    linkSource: "https://github.com/shivamgupta951/YemmyChats",
+    image: "https://c4.wallpaperflare.com/wallpaper/304/870/385/technology-git-github-hd-wallpaper-preview.jpg",
+  },
+  {
+    name: "iDataBook",
+    summary:
+      "A cloud-based academic document manager that allows users to securely store, organize, and access files. Built with React, Express, and MongoDB for seamless CRUD operations.",
+    linkPreview: "https://github.com/shivamgupta951/idatabook",
+    linkSource: "https://github.com/shivamgupta951/idatabook",
+    image: "https://c4.wallpaperflare.com/wallpaper/304/870/385/technology-git-github-hd-wallpaper-preview.jpg",
+  },
+  {
+    name: "Weather Forecast",
+    summary:
+      "A responsive weather web app showing real-time forecasts using OpenWeatherMap API, built with React and Tailwind CSS.",
+    linkPreview: "https://github.com/shivamgupta951/weatherforecast",
+    linkSource: "https://github.com/shivamgupta951/weatherforecast",
+    image: "https://c4.wallpaperflare.com/wallpaper/304/870/385/technology-git-github-hd-wallpaper-preview.jpg",
+  },
+],
   about: {
     description: `
 Hi, I'm **Shivam Gupta**, a passionate Full Stack MERN Developer and open-source enthusiast from India.  
